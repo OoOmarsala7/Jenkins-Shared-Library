@@ -2,5 +2,5 @@
 
 def call() {
     echo "Building docker image"
-    sh 'docker build -t ${params.'Image Name'} .'
+    sh "docker build -t ${params.'Image Name'} ."
 }
